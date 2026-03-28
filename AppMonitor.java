@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class AppMonitor {
 
-    private String currentApp;
+    private String currentApp = "";
     private AppSession currentSession;
     private ArrayList<AppSession> sessions = new ArrayList<>();
     private boolean isRunning = false;
