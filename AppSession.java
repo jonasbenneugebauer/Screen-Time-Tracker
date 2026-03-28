@@ -23,5 +23,8 @@ public class AppSession {
             return Duration.between(startTime, endTime).toSeconds();  
         }
     }
+    public String getAppName() {
+        return appName;
+    }   
 
 }
